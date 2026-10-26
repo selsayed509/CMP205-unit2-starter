@@ -13,10 +13,9 @@ namespace RecipeSystem.Data
         // Add a DbSet<T> property here for each class you add to Models/
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Configure your connection string here.
-            // The connection string should NOT be stored here. It is read from your local
-            // user secrets store, which lives outside this project folder and is
-            // never committed to Git.
+            // Configure your connection here.
+            // Do NOT write your connection string in this file: it would be committed to Git.
+            // A secure approach to use is covered in the lecture and lab on Entity Framework.
 
 
         }
