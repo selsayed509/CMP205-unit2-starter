@@ -12,7 +12,8 @@ At the end of the unit, you will submit your final Visual Studio project as inst
 
 1. Clone this repository (see the Student Handbook on MLS for step-by-step instructions).
 2. Open `RecipeSystem.sln` locally in Visual Studio.
-3. Build and run the app — you should see a blank window titled "Form1"
-4. Configure your connection in `Data/AppDbContext.cs` to securely connect to your SQL database.
-5. Work through the unit 2 requirements normally from within Visual Studio.
-6. Commit and push regularly as you work.
+3. Build and run the app - you should see a blank window titled "Form1".
+4. If Class View is empty,  double-click `Form1.cs` to open it in the designer once, then build the project. After that, your classes appear in Class View.
+5. Configure your connection in `Data/AppDbContext.cs` to securely connect to your SQL database.
+6. Work through the unit 2 requirements normally from within Visual Studio.
+7. Commit and push regularly as you work.
